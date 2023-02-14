@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Curt Lynch
+// 02/14/2023
+// Widget class and Decorators
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
