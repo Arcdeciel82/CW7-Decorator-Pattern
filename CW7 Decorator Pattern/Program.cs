@@ -33,6 +33,7 @@ namespace CW7_Decorator_Pattern
                     widget = new UselessToolbarDecorator(widget);
                 }
             }
+            Console.Write("I am ");
             widget.draw();
             Console.ReadKey();
         }

@@ -28,7 +28,7 @@ namespace CW7_Decorator_Pattern
 
         public void draw()
         {
-            Console.WriteLine("A TextField Widget of width " + width + " and height " + height + ".");
+            Console.WriteLine("a TextField Widget of width " + width + " and height " + height + ".");
         }
     }
 
@@ -55,7 +55,7 @@ namespace CW7_Decorator_Pattern
 
         public override void draw()
         {
-            Console.WriteLine("A BorderDecorator holding: ");
+            Console.WriteLine("a BorderDecorator holding ");
             base.draw();
         }
     }
@@ -68,7 +68,7 @@ namespace CW7_Decorator_Pattern
 
         public override void draw()
         {
-            Console.WriteLine("A ScrollDecorator holding: ");
+            Console.WriteLine("a ScrollDecorator holding ");
             base.draw();
         }
     }
@@ -81,7 +81,7 @@ namespace CW7_Decorator_Pattern
 
         public override void draw()
         {
-            Console.WriteLine("A UselessToolbarDecorator holding: ");
+            Console.WriteLine("a UselessToolbarDecorator holding ");
             base.draw();
         }
     }
