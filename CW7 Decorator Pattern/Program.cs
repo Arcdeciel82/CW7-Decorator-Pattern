@@ -19,13 +19,18 @@ namespace CW7_Decorator_Pattern
             int numOfDecorators = rand.Next() % 50 + 10;
             for (int i = 0 ; i < numOfDecorators; i++)
             {
-                if (rand.Next() % 2 == 0)
+                int x = rand.Next() % 3;
+                if (x == 0)
                 {
                     widget = new BorderDecorator(widget);
                 }
-                else
+                else if (x == 1)
                 {
                     widget = new ScrollDecorator(widget);
+                }
+                else
+                {
+                    widget = new UselessToolbarDecorator(widget);
                 }
             }
             widget.draw();
